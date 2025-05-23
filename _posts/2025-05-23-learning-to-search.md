@@ -9,6 +9,8 @@ tags: distill formatting
 giscus_comments: true
 date: 2025-05-23
 featured: true
+categories: ICLR-Blogposts
+related_publications: true
 
 authors:
   - name: annonymous
@@ -51,10 +53,11 @@ with posterior $p(Z \mid X, Y) \propto p(X Z Y)$ being the object we actually ne
 - Contrast with VI, MCMC, Policy‑Gradient RL.
 - Visual: autoregressive sampling tree + flow conservation.
 
-
 ## Core Algorithm Box
 - Pseudo‑code: initialize policy with base LLM → SubTB loss → replay buffer → converge to posterior.
 - Side bar: why train‑time search ≠ inference‑time beam search.
+
+---
 
 ## Empirical Sections
 ### 5.1 Sentence Continuation (likelihood–diversity trade‑off)
@@ -73,13 +76,16 @@ Axes: diversity, sample‑efficiency, reward robustness, compute cost.
 Strengths: posterior coverage, Bayesian model averaging, low‑data wins.
 Limitations: needs a decent reward LM; doesn’t add new knowledge; exploration in very long sequences; experiments $\le$ 6B params.
 
+---
+
 ## Fine-tuning with Chain-of-thought Reasoning
 Refer to <d-cite key="lobo2025impactfinetuningchainofthoughtreasoning"></d-cite>. Chain-of-thought fine-tuning can degrade the performance.
 > Prior research suggests that, despite generating reasoning steps before the final
 answer, LLMs may produce reasoning that don’t align with their internal decision-making processes, as these operate in different representational spaces (Tanneru et al., 2024; Agarwal et al., 2024; Rafailov et al., 2023).
 
 ## Chain-of-thought Reasoning Without Prompting
-Refer to <d-cite key="wang2024chainofthoughtreasoningprompting"></d-cite>. We can use chan-of-thought without prompting, but the performance is limited due to the combinatorial explosion of possible way of thinking.
+Refer to <d-cite key="wang2024chainofthoughtreasoningprompting"></d-cite>. We can use chan-of-thought without prompting, but the performance is limited due to the combinatorial explosion of possible way of thinking.<d-footnote>This will become a hoverable footnote.</d-footnote>
+
 
 ---
 
