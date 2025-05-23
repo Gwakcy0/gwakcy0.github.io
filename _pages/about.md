@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Better Late than Never
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: faces.webp
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>M.S. Student, Computer Vision Lab</p>
@@ -28,4 +28,4 @@ latest_posts:
 ---
 
 I am a M.S. student in Computer Vision Lab at POSTECH. My research interests are in the field of computer vision and deep learning.
-I am interested in the perception of the world and the interaction between humans and machines.
+I am interested in the way how humans and machines perceive the world and interact with each other.
