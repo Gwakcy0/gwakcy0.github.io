@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-learning-to-search-amortized-reasoning-in-llms-with-gflownets",
+        },{id: "post-advancing-llm-capabilities-gflownets-for-amortized-inference-and-enhanced-diversity",
+        
+          title: "Advancing LLM Capabilities: GFlowNets for Amortized Inference and Enhanced Diversity",
+        
+        description: "Large Language Models (LLMs) have fundamentally transformed artificial intelligence, showcasing unprecedented capabilities in generating human-like text and solving complex problems. However, their practical utility and responsible deployment in real-world scenarios are critically dependent on two key aspects: effective alignment with human preferences and the ability to perform robust, multi-step reasoning. This report explores how Generative Flow Networks (GFlowNets) offer a novel and principled framework to address these challenges, aligning with the broader pursuit of efficient ML by reframing LLM fine-tuning as a distribution-matching problem rather than a reward-maximization one.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/gflownets-diverse-reasoning/";
+          
+        },
+      },{id: "post-learning-to-search-amortized-reasoning-in-llms-with-gflownets",
         
           title: "Learning to Search: Amortized Reasoning in LLMs with GFlowNets",
         
