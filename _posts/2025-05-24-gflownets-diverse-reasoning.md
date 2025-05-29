@@ -150,7 +150,7 @@ The "Amortizing Intractable Inference in LLMs" paper emphasizes that GFlowNets p
 
 ## GFlowNet-DPO (GDPO): A Synergistic Solution for Diverse Alignment
 
-Recognizing the diversity limitations inherent in DPO and RLHF, researchers have begun to integrate the diversity-seeking principles of GFlowNets into existing alignment frameworks, leading to the development of novel approaches such as GFlowNet-DPO (GDPO) <d-cite key="kwon2024gdpolearningdirectlyalign"></d-cite>. 
+Recognizing the diversity limitations inherent in DPO and RLHF, researchers have begun to integrate the diversity-seeking principles of GFlowNets into existing alignment frameworks, leading to the development of novel approaches such as GFlowNet-DPO (GDPO) <d-cite key="kwon2024gdpolearningdirectlyalign"></d-cite>.
 
 GDPO is proposed as a practical application that integrates GFlowNet principles into an offline preference alignment setting. Its primary goal is to curtail challenges like overfitting on reward signals and the tendency to settle in local modes, which are common issues observed in standard DPO. Similar to standard DPO, GDPO learns the policy by extracting reward signals directly from an offline preference dataset. However, the crucial distinction lies in how this task is modeled: it is framed as an inference task using the GFlowNet. By leveraging GFlowNets' principled method for amortized sampling of multimodal distributions in proportion to a given reward distribution, GDPO encourages the generation of diverse yet high-reward samples. This directly addresses the mode collapse issue by not solely maximizing a single reward but rather learning to sample from the entire distribution of preferred outcomes.
 
