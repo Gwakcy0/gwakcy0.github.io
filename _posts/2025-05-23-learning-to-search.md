@@ -5,7 +5,7 @@ description: >
   Many tasks we care about—chain‑of‑thought (CoT) reasoning, story infilling, tool‑augmented arithmetic—are instances of intractable posterior inference inside a pretrained LLM. Common fine‑tuning strategies such as supervised learning, PPO‑style RLHF, or DPO chase one high‑reward trajectory and ignore the rest, forfeiting diversity and reliability.
   This post explains how Generative Flow Networks (GFlowNets) turn LLM fine‑tuning into train‑time search: the model is taught to sample complete reasoning paths with probability proportional to their joint likelihood, thereby amortizing Bayesian inference. We weave together intuition, a toy demo, and results from Hu et al. (ICLR 2024) to show why GFlowNets can be a drop‑in alternative that is (i) more data‑efficient, (ii) more robust to reward miss‑specification, and (iii) naturally enables model‑averaged predictions.
 
-tags: distill formatting
+tags: iclr-blogpost efficient-ml
 giscus_comments: true
 date: 2025-05-23
 featured: true
