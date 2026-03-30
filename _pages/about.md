@@ -2,19 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: Better Late than Never
+subtitle: Computer Vision Researhcer
 
 profile:
   align: right
-  image: faces.webp
+  image: gwakcy_photo.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>M.S. Student, Computer Vision Lab</p>
-    <p>POSTECH, Pohang, South Korea</p>
+    <p>M.S. Student,</p>
+    <p>Computer Vision Lab,</p>
+    <p>POSTECH, South Korea</p>
     <p>Email: <a href="mailto:gwakcy@postech.ac.kr">gwakcy@postech.ac.kr</a></p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -27,5 +28,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a M.S. student in Computer Vision Lab at POSTECH. My research interests are in the field of computer vision and deep learning.
-I am interested in the way how humans and machines perceive the world and interact with each other.
+I am an M.S. student in the [Computer Vision Lab](http://cvlab.postech.ac.kr) at POSTECH. I received my B.S. in Computer Science and Engineering from POSTECH in 2024. 
+
+My research lies at the intersection of 3D scene understanding and multimodal large language models, with a particular interest in spatially grounded reasoning over 3D environments. More broadly, I am interested in building systems that can perceive, reason about, and interact with the world through vision and language. Recently, I have also been interested in spatio-temporal understanding for embodied AI, particularly in how agents can understand and reason about dynamic environments over time.
